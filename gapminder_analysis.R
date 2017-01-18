@@ -1,5 +1,6 @@
 #AUTHOR: fab
 #this is how you comment 
+#quick comments in to show how pull can work Yay, this would be super useful for betsy et all to comment on code that we write 
 #always comment
 #forshoyo
 #This is a script that I wrote
