@@ -36,5 +36,7 @@ mean(gapminder[thing, c("lifeExp")])
 o <- order(Africa_2007$lifeExp)
 Africa_2007[o,]
 
-
-  
+#making a plot
+ggplot(data = gapminder, aes(x = year, y = lifeExp, color = continent)) + geom_point()+facet_grid(.~continent)
+#save plot
+ggsave(filename="year_vs_lifeExp_perContinent.png", width=5, height=4, units="in")
