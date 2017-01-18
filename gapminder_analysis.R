@@ -4,6 +4,7 @@
 #forshoyo
 #This is a script that I wrote
 download.file("https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder-FiveYearData.csv", destfile = "gapminder-FiveYearData.csv")
+#read in datafile 
 gapminder <- read.csv("gapminder-FiveYearData.csv")
 #the following are good ways to summarize/understand your dataframe
 head(gapminder)
